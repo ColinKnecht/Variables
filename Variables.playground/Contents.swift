@@ -29,6 +29,17 @@ var age = 30  //type inference
 var weight: Int = 200 //explicit declaration
 var bankBalance = 1200.30
 
+//Functions
+var length = 5
+var width = 10
+
+func calculateArea(length:Int, width:Int) -> Int {
+    let area = length * width
+    return area
+    
+}
+let area = calculateArea(5,width: 10)
+
 
 
 
