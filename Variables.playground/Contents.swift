@@ -24,3 +24,11 @@ var fullName2 = "\(firstName) \(lastName)"
 var bookTitle = "revenge of the crab cakes"
 bookTitle = bookTitle.capitalizedString
 
+//numbers
+var age = 30  //type inference
+var weight: Int = 200 //explicit declaration
+var bankBalance = 1200.30
+
+
+
+
